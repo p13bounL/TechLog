@@ -1,0 +1,25 @@
+name: scapp
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  # επιστημονικά
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - anndata>=0.10
+  - scanpy>=1.10
+  - h5py
+  - numba
+  - hdf5plugin
+  # graph / clustering
+  - python-igraph
+  - leidenalg
+  # integration + deps από conda/bioconda (όχι pip)
+  - scanorama
+  - python-annoy
+  - networkx
+  - tqdm

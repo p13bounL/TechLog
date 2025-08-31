@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+matplotlib
+plotly
+scikit-learn
+scanpy
+anndata
+hdf5plugin
+decoupler
+jupyter
+nbconvert
+python-igraph
+leidenalg

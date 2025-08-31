@@ -1,0 +1,26 @@
+@"
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Δεδομένα & μεγάλα αρχεία
+data/
+GSE148822_RAW/
+*.h5ad
+*.mtx*
+*.tsv*
+*.csv.gz
+*.zip
+*.tar
+merged_*
+
+# IDE
+.vscode/
+.idea/
+
+# Notebooks
+Notebooks/
+*.ipynb_checkpoints/
+"@ | Out-File -Encoding UTF8 .gitignore
